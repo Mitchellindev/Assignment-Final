@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  background: black;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.imagename {
+  font-size: medium;
+  font-weight: bold;
+  width: 100%;
+
+  text-align: center;
+  transition: 0.5s;
+  color: white;
+}
+.imagename:hover {
+  border-radius: 5px;
+  cursor: pointer;
+}
+img {
+  height: 300px;
+  outline: solid;
+  outline-width: 2px;
+  border-radius: 10px;
+  outline-color: rgb(255, 255, 255);
+  transition: 0.6s;
+  margin: 10px;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
+
+#topic {
+  font-size: larger;
+  font-weight: bolder;
+  color: brown;
+  text-align: center;
+  margin-top: 10px;
+  margin: 20px;
+  color: aliceblue;
+}
+
+.active {
+  color: black;
+  background-color: white;
+}
